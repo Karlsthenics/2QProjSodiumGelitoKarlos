@@ -1,0 +1,208 @@
+@font-face
+{
+	font-family: "TrajanProBold";
+	src: url("../fontstyles/TrajanProBold.ttf");
+}
+
+@font-face
+{
+	font-family: "Adam";
+	src: url("../fontstyles/Adam.ttf");
+}
+
+body
+{
+	background-color: rgb(43, 35, 24);
+}
+
+#wpr
+{
+	margin: auto;
+	margin-bottom: 0px;
+	position: absolute;
+	width: 1900px;
+}
+
+#bgimg
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -390px;
+	margin-top: -10px;
+}
+
+h1
+{
+	font-family: "TrajanProBold";
+	font-size: 90px;
+	color: rgb(144, 110, 73);
+	font-weight: bold;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	right: 730px;
+	text-align: center;
+}
+
+#h2
+{
+	font-family: "TrajanProBold";
+	font-size: 27px;
+	color: rgb(144, 110, 73);
+	font-weight: bold;
+	position: absolute;
+	top: 270px;
+	left: 640px;
+	right: 0px;
+	text-align: center;
+}
+
+#bg
+{
+	padding-left: 50px;  
+	padding-right: 50px;
+	padding-bottom: 20px;
+	margin-top: 386px;
+	margin-left: 369px;
+	margin-right: 369px;
+	margin-bottom: 0px;
+	background-color: rgb(186, 173, 143);
+
+}
+
+#nav
+{
+	font-family: "TrajanProBold";
+	font-size: 21px;
+	text-align: center;
+	list-style-type: none;
+	margin-left: -100px;
+	margin-right: -100px;
+}
+
+#li1, #li2, #li3, #li4
+{
+	display: inline;
+}
+
+a
+{
+	text-decoration: none;
+	color: rgb(43, 35, 24);
+}
+
+a:hover
+{
+	color: white;
+}
+
+a:active
+{
+	position: relative;
+	top: 10px;
+}
+
+#navbar
+{
+	background-color: rgb(186, 173, 143);
+	position: sticky;
+	top: 0px;
+	z-index: 3;
+}
+
+#hr1
+{
+	margin-left: -50px;
+	margin-right: -50px;
+	margin-bottom: -15px;
+	height: 2px;
+	background-color: rgb(43, 35, 24);
+	border: none;
+}
+
+#hr2
+{
+	margin-top: -15px;
+	margin-left: -50px;
+	margin-right: -50px;
+	height: 2px;
+	background-color: rgb(43, 35, 24);
+	border: none;
+}
+
+#li1
+{
+	margin-right: 40px;
+}
+
+#li2
+{
+	margin-right: 40px;
+}
+
+#li3
+{
+	margin-right: 40px;
+}
+
+#li4
+{
+	margin-right: 40px;
+}
+
+#wip
+{
+	font-family: "TrajanProBold";
+	font-size: 35px;
+	font-weight: bold;
+	text-align: justify;
+	color: black;
+}
+
+aside
+{
+	float: right;
+	position: fixed;
+	top: 40%;
+}
+
+.icon1
+{ 
+	position: relative;
+	background: url(../images/imgsprite.png) no-repeat -0px -153px;
+	width: 84px;
+	height: 77px;
+}
+
+.icon1:hover
+{
+	background: url(../images/imgsprite.png) no-repeat -0px -69px;
+}
+
+.icon2
+{ 
+	background: url(../images/imgsprite.png) no-repeat -672px -153px;
+	width: 84px;
+	height: 77px;
+}
+
+.icon2:hover
+{
+	background: url(../images/imgsprite.png) no-repeat -672px -70px;
+}
+
+.icon3
+{ 
+	position: relative;
+	background: url(../images/imgsprite.png) no-repeat -841px -153px;
+	width: 84px;
+	height: 77px;
+	bottom: 1px;
+}
+
+.icon3:hover
+{
+	background: url(../images/imgsprite.png) no-repeat -841px -70px;
+}
+

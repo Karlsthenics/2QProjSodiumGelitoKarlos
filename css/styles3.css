@@ -1,0 +1,568 @@
+@font-face
+{
+	font-family: "TrajanProBold";
+	src: url("../fontstyles/TrajanProBold.ttf");
+}
+
+@font-face
+{
+	font-family: "Adam";
+	src: url("../fontstyles/Adam.ttf");
+}
+
+body
+{
+	background-color: rgb(43, 35, 24);
+}
+
+#wpr
+{
+	margin: auto;
+	margin-bottom: 0px;
+	position: absolute;
+	width: 1900px;
+}
+
+#bgimg
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -390px;
+	margin-top: -10px;
+}
+
+h1
+{
+	font-family: "TrajanProBold";
+	font-size: 90px;
+	color: rgb(144, 110, 73);
+	font-weight: bold;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	right: 730px;
+	text-align: center;
+}
+
+#h2
+{
+	font-family: "TrajanProBold";
+	font-size: 35px;
+	color: rgb(144, 110, 73);
+	font-weight: bold;
+	position: absolute;
+	top: 260px;
+	left: 640px;
+	right: 0px;
+	text-align: center;
+}
+
+#bg
+{
+	padding-left: 50px;  
+	padding-right: 50px;
+	padding-bottom: 20px;
+	margin-top: 386px;
+	margin-left: 369px;
+	margin-right: 369px;
+	margin-bottom: 0px;
+	background-color: rgb(186, 173, 143);
+
+}
+
+#nav
+{
+	font-family: "TrajanProBold";
+	font-size: 21px;
+	text-align: center;
+	list-style-type: none;
+	margin-left: -100px;
+	margin-right: -100px;
+}
+
+#li1, #li2, #li3, #li4
+{
+	display: inline;
+}
+
+a
+{
+	text-decoration: none;
+	color: rgb(43, 35, 24);
+}
+
+a:hover
+{
+	color: white;
+}
+
+a:active
+{
+	position: relative;
+	top: 10px;
+}
+
+#navbar
+{
+	background-color: rgb(186, 173, 143);
+	position: sticky;
+	top: 0px;
+	z-index: 3;
+}
+
+#hr1
+{
+	margin-left: -50px;
+	margin-right: -50px;
+	margin-bottom: -15px;
+	height: 2px;
+	background-color: rgb(43, 35, 24);
+	border: none;
+}
+
+#hr2
+{
+	margin-top: -15px;
+	margin-left: -50px;
+	margin-right: -50px;
+	height: 2px;
+	background-color: rgb(43, 35, 24);
+	border: none;
+}
+
+#li1
+{
+	margin-right: 40px;
+}
+
+#li2
+{
+	margin-right: 40px;
+}
+
+#li3
+{
+	margin-right: 40px;
+}
+
+#li4
+{
+	margin-right: 40px;
+}
+
+#map
+{
+	float: right;
+	margin-left: 20px;
+}
+
+#map1
+{
+
+	margin-top: 125px;
+	float: left;
+}
+
+#map2
+{
+	position: relative;
+	margin-top: -195px;
+	float: right;
+}
+
+
+#p
+{
+	margin-top: 20px;
+	font-family: "TrajanProBold";
+	font-size: 35px;
+	font-weight: bold;
+	text-align: justify;
+	color: black;
+}
+
+#p1
+{
+	margin-top: 50px;
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;	
+}
+
+#p2
+{
+	position: relative;
+	left: 20px;
+	margin-top: 260px;
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;	
+}
+
+#p3
+{
+	margin-top: 150px;
+	font-family: "TrajanProBold";
+	font-size: 35px;
+	font-weight: bold;
+	text-align: justify;
+	color: black;
+}
+
+#p4
+{
+	font-family: "TrajanProBold";
+	font-size: 35px;
+	font-weight: bold;
+	text-align: justify;
+	color: black;
+}
+
+#p5
+{
+	position: relative;
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;
+	right: 20px;
+	margin-left: 20px;
+}
+
+#p6
+{
+	margin-top: 150px;
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;
+}
+
+#fig
+{
+	margin-top: 3px;
+	font-family: "Century Gothic";
+	font-size: 15px;
+	text-align: justify;
+	color: black;
+	text-align: center;	
+}
+
+#fig1
+{
+	font-family: "Century Gothic";
+	font-size: 15px;
+	text-align: justify;
+	color: black;
+	text-align: center;	
+}
+
+#list
+{
+	margin-bottom: 10px;
+}
+
+#list1
+{
+	margin-top: 10px;
+}
+
+#att
+{
+	list-style-type: none;
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;	
+}
+
+#att1
+{
+	list-style-type: none;
+	font-family: "Century Gothic";
+	font-size: 20px;
+	text-align: justify;
+	color: black;
+	margin-top: 180px;
+	margin-left: -50px;	
+	margin-right: 440px;
+}
+
+#mapneuts
+{
+	left: 20px;
+	position: relative;
+}
+
+#neuts
+{
+	left: 20px;
+	top: 10px;
+	position: relative;
+}
+
+#figure
+{
+	margin-top: 20px;
+	float: right;
+}
+
+#figure1
+{
+	float: left;
+	position: relative;
+	top: 20px;
+	right: 20px;
+}
+
+#att1
+{
+	position: relative;
+	left: 10px;
+}
+
+#runes
+{
+	top: 250px;
+	position: relative;
+	float: right;
+}
+
+#li
+{
+	font-weight: bold;
+}
+
+#lime
+{
+	color: 	rgb(116, 212, 61);
+	font-weight: bold;
+}
+
+#darkpurple
+{
+	color: rgb(33, 25, 41);
+	font-weight: bold;
+}
+
+#redorange
+{
+	color: rgb(230, 41, 14);
+	font-weight: bold;
+}
+
+#brightyellow
+{
+	color: rgb(245, 186, 72);
+	font-weight: bold;
+}
+
+#blue
+{
+	color: rgb(112, 157, 255);
+	font-weight: bold;
+}
+
+#yelloworange
+{
+	color: rgb(235, 130, 42);
+	font-weight: bold;
+}
+
+#brightpurple
+{
+	color: rgb(204, 113, 231);
+	font-weight: bold;
+}
+
+#runes1
+{
+	float: left;
+}
+
+#p8
+{
+	margin-left: 375px;
+	margin-top: 120px;
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;
+}
+
+#creep
+{
+	margin-top: 100px;
+	margin-left: 20px;
+	margin-bottom: -20px;
+	float: right;
+}
+
+#p9
+{
+	margin-top: 170px;
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;
+}
+
+#fig2
+{
+	font-family: "Century Gothic";
+	font-size: 15px;
+	text-align: justify;
+	color: black;
+	text-align: center;	
+	position: relative;
+	margin-left: 720px;
+	top: 20px;
+}
+
+#rosh
+{
+	display: block;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#p10
+{
+	margin-top: 20px;
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;
+}
+
+#aegis
+{
+	position: relative;
+	top: 5px;
+}
+
+#table, #table1
+{
+	margin-left: 20px;
+	position: relative;
+	top: 60px;
+	float: right;
+}
+
+#respawn
+{
+	margin-top: 175px;
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;
+}
+
+iframe
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#vid
+{
+	float: left;
+}
+
+#yt
+{
+	z-index: 0;
+	float: right;
+}
+
+#gne
+{
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;
+	margin-bottom: 20px;
+}
+
+#close
+{
+	clear: both;
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;
+	position: relative;
+	top: 20px;
+	bottom: 20px;
+}
+
+#refhr
+{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-family: "TrajanProBold";
+	font-size: 20px;
+	text-align: left;
+	color: black;
+	font-weight: bold;
+}
+
+#ref
+{
+	margin-top: 20px;
+	font-family: "Century Gothic";
+	font-size: 16px;
+	text-align: left;
+	color: black;
+}
+
+aside
+{
+	float: right;
+	position: fixed;
+	top: 40%;
+}
+
+.icon1
+{ 
+	position: relative;
+	background: url(../images/imgsprite.png) no-repeat -0px -153px;
+	width: 84px;
+	height: 77px;
+}
+
+.icon1:hover
+{
+	background: url(../images/imgsprite.png) no-repeat -0px -69px;
+}
+
+.icon2
+{ 
+	background: url(../images/imgsprite.png) no-repeat -672px -153px;
+	width: 84px;
+	height: 77px;
+}
+
+.icon2:hover
+{
+	background: url(../images/imgsprite.png) no-repeat -672px -70px;
+}
+
+.icon3
+{ 
+	position: relative;
+	background: url(../images/imgsprite.png) no-repeat -841px -153px;
+	width: 84px;
+	height: 77px;
+	bottom: 1px;
+}
+
+.icon3:hover
+{
+	background: url(../images/imgsprite.png) no-repeat -841px -70px;
+}
