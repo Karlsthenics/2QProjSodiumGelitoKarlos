@@ -307,6 +307,7 @@ aside
 	float: right;
 	position: fixed;
 	top: 40%;
+	z-index: 4;
 }
 
 .icon1
