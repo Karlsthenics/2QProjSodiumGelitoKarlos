@@ -15,12 +15,24 @@ body
 	background-color: rgb(43, 35, 24);
 }
 
+@keyframes reverseflashbang
+{
+	from {filter: brightness(0)}
+	to{filter: brightness(1)}
+}
+
+body
+{
+	animation:reverseflashbang 0.5s;
+}
+
 #wpr
 {
 	margin: auto;
 	margin-bottom: 0px;
 	position: absolute;
 	width: 1900px;
+	
 }
 
 #bgimg
@@ -32,14 +44,14 @@ body
 	margin-top: -10px;
 }
 
-h1
+header
 {
 	font-family: "TrajanProBold";
 	font-size: 90px;
 	color: rgb(144, 110, 73);
 	font-weight: bold;
 	position: absolute;
-	top: 200px;
+	top: 250px;
 	left: 0px;
 	right: 730px;
 	text-align: center;
@@ -48,11 +60,11 @@ h1
 #h2
 {
 	font-family: "TrajanProBold";
-	font-size: 27px;
+	font-size: 60px;
 	color: rgb(144, 110, 73);
 	font-weight: bold;
 	position: absolute;
-	top: 270px;
+	top: 230px;
 	left: 640px;
 	right: 0px;
 	text-align: center;
@@ -103,7 +115,7 @@ a:active
 	top: 10px;
 }
 
-#navbar
+nav
 {
 	background-color: rgb(186, 173, 143);
 	position: sticky;
@@ -178,7 +190,16 @@ aside
 
 .icon1:hover
 {
+	animation-name: ania;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
 	background: url(../images/imgsprite.png) no-repeat -0px -69px;
+}
+
+@keyframes ania
+{
+	from{background-position-y:-153px;}
+	to{background-position-y:-69px;}
 }
 
 .icon2
@@ -190,7 +211,16 @@ aside
 
 .icon2:hover
 {
+	animation-name: anib;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
 	background: url(../images/imgsprite.png) no-repeat -672px -70px;
+}
+
+@keyframes anib
+{
+	from{background-position-y:-153px;}
+	to{background-position-y:-70px;}
 }
 
 .icon3
@@ -204,6 +234,91 @@ aside
 
 .icon3:hover
 {
+	animation-name: anic;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
 	background: url(../images/imgsprite.png) no-repeat -841px -70px;
 }
 
+@keyframes anic
+{
+	from{background-position-y:-153px;}
+	to{background-position-y:-70px;}
+}
+
+#p1
+{
+	margin-top: 20px;
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;
+}
+
+#ph1
+{
+	font-family: "TrajanProBold";
+	font-size: 35px;
+	font-weight: bold;
+	text-align: justify;
+	color: black;
+	margin-top: 10px;
+}
+
+#p2
+{
+	text-align: center;
+	font-size: 23px;
+}
+
+#p3
+{
+	margin-top: 20px;
+	font-family: "Century Gothic";
+	font-size: 25px;
+	text-align: justify;
+	color: black;
+}
+
+#img
+{
+	clear: left;
+	clear: right;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#img1
+{
+	margin-top: -20px;
+}
+
+#img2
+{
+	margin-top: 20px;
+}
+
+#refhr
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "TrajanProBold";
+	font-size: 20px;
+	text-align: left;
+	color: black;
+	font-weight: bold;
+}
+
+.hero
+{
+	text-align: center;
+}
+
+footer
+{
+	margin-top: 20px;
+	font-family: "Century Gothic";
+	font-size: 16px;
+	text-align: left;
+	color: black;
+}

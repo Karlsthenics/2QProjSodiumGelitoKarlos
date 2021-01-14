@@ -15,6 +15,17 @@ body
 	background-color: rgb(43, 35, 24);
 }
 
+@keyframes reverseflashbang
+{
+	from {filter: brightness(0)}
+	to{filter: brightness(1)}
+}
+
+body
+{
+	animation:reverseflashbang 0.5s;
+}
+
 #wpr
 {
 	margin: auto;
@@ -32,14 +43,14 @@ body
 	margin-top: -10px;
 }
 
-h1
+header
 {
 	font-family: "TrajanProBold";
 	font-size: 90px;
 	color: rgb(144, 110, 73);
 	font-weight: bold;
 	position: absolute;
-	top: 200px;
+	top: 250px;
 	left: 0px;
 	right: 730px;
 	text-align: center;
@@ -48,7 +59,7 @@ h1
 #h2
 {
 	font-family: "TrajanProBold";
-	font-size: 27px;
+	font-size: 30px;
 	color: rgb(144, 110, 73);
 	font-weight: bold;
 	position: absolute;
@@ -103,7 +114,7 @@ a:active
 	top: 10px;
 }
 
-#navbar
+nav
 {
 	background-color: rgb(186, 173, 143);
 	position: sticky;
@@ -162,7 +173,7 @@ a:active
 	font-weight: bold;
 }
 
-#ref
+footer
 {
 	margin-top: 20px;
 	font-family: "Century Gothic";
@@ -186,6 +197,11 @@ iframe
 	font-size: 25px;
 	text-align: justify;
 	color: black;
+}
+
+#p1 img
+{
+	width: 45px;
 }
 
 #ph1
@@ -244,7 +260,16 @@ aside
 
 .icon1:hover
 {
+	animation-name: ania;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
 	background: url(../images/imgsprite.png) no-repeat -0px -69px;
+}
+
+@keyframes ania
+{
+	from{background-position-y:-153px;}
+	to{background-position-y:-69px;}
 }
 
 .icon2
@@ -256,7 +281,16 @@ aside
 
 .icon2:hover
 {
+	animation-name: anib;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
 	background: url(../images/imgsprite.png) no-repeat -672px -70px;
+}
+
+@keyframes anib
+{
+	from{background-position-y:-153px;}
+	to{background-position-y:-70px;}
 }
 
 .icon3
@@ -270,5 +304,14 @@ aside
 
 .icon3:hover
 {
+	animation-name: anic;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
 	background: url(../images/imgsprite.png) no-repeat -841px -70px;
+}
+
+@keyframes anic
+{
+	from{background-position-y:-153px;}
+	to{background-position-y:-70px;}
 }
