@@ -83,14 +83,12 @@ header
 
 }
 
-#nav
+nav
 {
 	font-family: "TrajanProBold";
-	font-size: 21px;
+	font-size: 18px;
 	text-align: center;
 	list-style-type: none;
-	margin-left: -100px;
-	margin-right: -100px;
 }
 
 #li1, #li2, #li3, #li4
